@@ -1,0 +1,25 @@
+ul, ol {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+.tab-list{
+
+}
+.tab-list ul{
+    list-style-type: none
+}
+.tab-list ul li{
+    float: left;
+    text-align: center;
+    background: #777;
+    color:#fff;
+    font-size:15px;
+    width:33.3%;
+    cursor: pointer;
+    padding:16px 0px;
+}
+
+.tab-list ul li.active{
+    background: #666;
+}
